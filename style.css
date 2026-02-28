@@ -30,7 +30,7 @@ header {
     top: 60px;
     z-index: 100;
     input {
-        flex: 1;
+        flex: 2;
         padding: 8px 5px 8px 8px;
         font-size: 13px;
         outline: none;
@@ -38,6 +38,7 @@ header {
         border-radius: 4px;
     }
     button {
+        flex: 1;
         padding: 8.5px 18px;
         font-weight: bold;
         color: white;
