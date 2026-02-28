@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Arial;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 101;
+}
+.input-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 4px;
+    padding: 0px 4px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: sticky;
+    top: 60px;
+    z-index: 100;
+    input {
+        width: 115px;
+        padding: 8px 5px 8px 8px;
+        font-size: 13px;
+        outline: none;
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 4px;
+    }
+    button {
+        padding: 8.5px 18px;
+        font-weight: bold;
+        color: white;
+        font-size: 14px;
+        background-color: red;
+        border: none;
+        border-radius: 4px;
+    }
+}
+.body-container {
+    padding: 5px 8px;
+}
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid green;
+    padding: 0px 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    .item-name {
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    .price-action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        .price {
+            color: green;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .edit-btn {
+            border: none;
+            font-weight: bold;
+            font-size: 13px;
+            padding: 6px 25px;
+            background-color: red;
+            color: white;
+            border-radius: 4px;
+        }
+    }
+}
